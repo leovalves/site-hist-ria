@@ -1,0 +1,1 @@
+Fontes locais: Instrument Serif e DM Sans, pacotes @fontsource/instrument-serif@5.3.0 e @fontsource/dm-sans@5.3.0. Obtidas do registro oficial npm com verificação de integridade do npm. Licenças SIL Open Font License incluídas nesta pasta.

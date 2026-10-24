@@ -1,6 +1,6 @@
 # História em perspectiva
 
-Base de um site de História em português, feito com HTML, CSS e Vite. Não exige banco de dados, credenciais ou serviços externos.
+Site de História em português com visual editorial, obras históricas, histórias por tema e linha do tempo. Feito com HTML, CSS, JavaScript e Vite. Não exige banco de dados, credenciais ou serviços externos em execução.
 
 ## Desenvolvimento
 
@@ -28,9 +28,12 @@ O build é gerado em `dist/`. O servidor de conferência usa a porta 4173.
 
 - `index.html`: conteúdo, navegação e estrutura da página.
 - `src/style.css`: estilos responsivos.
+- `src/main.js`: filtros de histórias por tema, com indicação acessível do resultado.
+- `public/images/`: obras em domínio público e seus créditos em `CREDITS.md`.
+- `public/fonts/`: fontes locais Instrument Serif e DM Sans, com suas licenças.
 - `package-lock.json`: versões exatas das dependências.
 
-Após uma alteração, confira o build e a página em tamanhos de tela diferentes, incluindo a navegação por teclado. Ainda não há uma suíte automatizada de testes no projeto.
+Após uma alteração, confira o build, os filtros, a abertura das leituras e a página em tamanhos de tela diferentes, incluindo a navegação por teclado. As imagens e as fontes são servidas pelo próprio projeto. Ainda não há uma suíte automatizada de testes no projeto.
 
 ## Ambiente na nuvem
 
